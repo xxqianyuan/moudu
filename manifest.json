@@ -1,0 +1,12 @@
+{
+  "name": "Moudu be nice",
+  "version": "1.0",
+  "description": "remove moudu ads.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.baidu.com/*"],
+      "js": ["removeads.js"]
+    }
+  ],
+  "manifest_version": 2
+}
